@@ -1,0 +1,788 @@
+{
+  "metrics": {
+    "net_sales": 45361050.0,
+    "gross_profit": 17544050.0,
+    "margin_pct": 38.68,
+    "orders": 7980,
+    "customers": 1787,
+    "aov": 5684.34,
+    "return_rate_pct": 8.0
+  },
+  "quality": {
+    "raw_rows": 16193,
+    "clean_rows": 16093,
+    "duplicate_rows": 60,
+    "invalid_rows": 40,
+    "normalised_regions": 50
+  },
+  "categories": [
+    {
+      "name": "Electronics",
+      "net_sales": 23857080.0,
+      "gross_profit": 6101730.0,
+      "margin_pct": 25.58,
+      "lines": 4028,
+      "return_rate_pct": 6.16
+    },
+    {
+      "name": "Fashion",
+      "net_sales": 12210140.0,
+      "gross_profit": 6322500.0,
+      "margin_pct": 51.78,
+      "lines": 4073,
+      "return_rate_pct": 14.22
+    },
+    {
+      "name": "Home",
+      "net_sales": 5977865.0,
+      "gross_profit": 3131295.0,
+      "margin_pct": 52.38,
+      "lines": 3964,
+      "return_rate_pct": 5.73
+    },
+    {
+      "name": "Stationery",
+      "net_sales": 3315965.0,
+      "gross_profit": 1988525.0,
+      "margin_pct": 59.97,
+      "lines": 4028,
+      "return_rate_pct": 5.78
+    }
+  ],
+  "regions": [
+    {
+      "name": "East",
+      "net_sales": 6790500.0,
+      "gross_profit": 2616350.0,
+      "margin_pct": 38.53,
+      "lines": 2389,
+      "return_rate_pct": 7.53
+    },
+    {
+      "name": "North",
+      "net_sales": 15133165.0,
+      "gross_profit": 5909505.0,
+      "margin_pct": 39.05,
+      "lines": 5497,
+      "return_rate_pct": 8.86
+    },
+    {
+      "name": "South",
+      "net_sales": 12829760.0,
+      "gross_profit": 4968210.0,
+      "margin_pct": 38.72,
+      "lines": 4486,
+      "return_rate_pct": 7.38
+    },
+    {
+      "name": "West",
+      "net_sales": 10607625.0,
+      "gross_profit": 4049985.0,
+      "margin_pct": 38.18,
+      "lines": 3721,
+      "return_rate_pct": 7.77
+    }
+  ],
+  "channels": [
+    {
+      "name": "Online",
+      "net_sales": 28603890.0,
+      "gross_profit": 10679670.0,
+      "margin_pct": 37.34,
+      "lines": 10408,
+      "return_rate_pct": 8.26
+    },
+    {
+      "name": "Store",
+      "net_sales": 16757160.0,
+      "gross_profit": 6864380.0,
+      "margin_pct": 40.96,
+      "lines": 5685,
+      "return_rate_pct": 7.51
+    }
+  ],
+  "discounts": [
+    {
+      "name": "0%",
+      "net_sales": 12379650.0,
+      "gross_profit": 5458870.0,
+      "margin_pct": 44.1,
+      "lines": 3987,
+      "return_rate_pct": 7.27
+    },
+    {
+      "name": "20%+",
+      "net_sales": 7073925.0,
+      "gross_profit": 1914725.0,
+      "margin_pct": 27.07,
+      "lines": 3091,
+      "return_rate_pct": 11.19
+    },
+    {
+      "name": "5\u201310%",
+      "net_sales": 25907475.0,
+      "gross_profit": 10170455.0,
+      "margin_pct": 39.26,
+      "lines": 9015,
+      "return_rate_pct": 7.22
+    }
+  ],
+  "monthly": [
+    {
+      "name": "2024-01",
+      "net_sales": 1369640.0,
+      "gross_profit": 521790.0,
+      "margin_pct": 38.1,
+      "lines": 491,
+      "return_rate_pct": 8.96
+    },
+    {
+      "name": "2024-02",
+      "net_sales": 1335175.0,
+      "gross_profit": 509195.0,
+      "margin_pct": 38.14,
+      "lines": 455,
+      "return_rate_pct": 7.69
+    },
+    {
+      "name": "2024-03",
+      "net_sales": 1240290.0,
+      "gross_profit": 480860.0,
+      "margin_pct": 38.77,
+      "lines": 465,
+      "return_rate_pct": 6.45
+    },
+    {
+      "name": "2024-04",
+      "net_sales": 1447265.0,
+      "gross_profit": 532585.0,
+      "margin_pct": 36.8,
+      "lines": 478,
+      "return_rate_pct": 7.95
+    },
+    {
+      "name": "2024-05",
+      "net_sales": 1503405.0,
+      "gross_profit": 590365.0,
+      "margin_pct": 39.27,
+      "lines": 531,
+      "return_rate_pct": 7.72
+    },
+    {
+      "name": "2024-06",
+      "net_sales": 1519997.5,
+      "gross_profit": 602537.5,
+      "margin_pct": 39.64,
+      "lines": 536,
+      "return_rate_pct": 8.21
+    },
+    {
+      "name": "2024-07",
+      "net_sales": 1430177.5,
+      "gross_profit": 553007.5,
+      "margin_pct": 38.67,
+      "lines": 514,
+      "return_rate_pct": 7.59
+    },
+    {
+      "name": "2024-08",
+      "net_sales": 1314375.0,
+      "gross_profit": 507775.0,
+      "margin_pct": 38.63,
+      "lines": 483,
+      "return_rate_pct": 8.49
+    },
+    {
+      "name": "2024-09",
+      "net_sales": 1378780.0,
+      "gross_profit": 535570.0,
+      "margin_pct": 38.84,
+      "lines": 471,
+      "return_rate_pct": 8.7
+    },
+    {
+      "name": "2024-10",
+      "net_sales": 3667215.0,
+      "gross_profit": 1450175.0,
+      "margin_pct": 39.54,
+      "lines": 1294,
+      "return_rate_pct": 8.5
+    },
+    {
+      "name": "2024-11",
+      "net_sales": 3511230.0,
+      "gross_profit": 1328560.0,
+      "margin_pct": 37.84,
+      "lines": 1202,
+      "return_rate_pct": 8.32
+    },
+    {
+      "name": "2024-12",
+      "net_sales": 3357602.5,
+      "gross_profit": 1294662.5,
+      "margin_pct": 38.56,
+      "lines": 1188,
+      "return_rate_pct": 7.58
+    },
+    {
+      "name": "2025-01",
+      "net_sales": 1513025.0,
+      "gross_profit": 577285.0,
+      "margin_pct": 38.15,
+      "lines": 545,
+      "return_rate_pct": 9.17
+    },
+    {
+      "name": "2025-02",
+      "net_sales": 1322920.0,
+      "gross_profit": 517240.0,
+      "margin_pct": 39.1,
+      "lines": 474,
+      "return_rate_pct": 6.75
+    },
+    {
+      "name": "2025-03",
+      "net_sales": 1459432.5,
+      "gross_profit": 573052.5,
+      "margin_pct": 39.27,
+      "lines": 564,
+      "return_rate_pct": 9.22
+    },
+    {
+      "name": "2025-04",
+      "net_sales": 1337617.5,
+      "gross_profit": 535147.5,
+      "margin_pct": 40.01,
+      "lines": 491,
+      "return_rate_pct": 7.33
+    },
+    {
+      "name": "2025-05",
+      "net_sales": 1353092.5,
+      "gross_profit": 532972.5,
+      "margin_pct": 39.39,
+      "lines": 467,
+      "return_rate_pct": 6.0
+    },
+    {
+      "name": "2025-06",
+      "net_sales": 1374807.5,
+      "gross_profit": 541667.5,
+      "margin_pct": 39.4,
+      "lines": 508,
+      "return_rate_pct": 7.68
+    },
+    {
+      "name": "2025-07",
+      "net_sales": 1326122.5,
+      "gross_profit": 490192.5,
+      "margin_pct": 36.96,
+      "lines": 476,
+      "return_rate_pct": 6.93
+    },
+    {
+      "name": "2025-08",
+      "net_sales": 1363097.5,
+      "gross_profit": 549197.5,
+      "margin_pct": 40.29,
+      "lines": 522,
+      "return_rate_pct": 9.0
+    },
+    {
+      "name": "2025-09",
+      "net_sales": 1270567.5,
+      "gross_profit": 475587.5,
+      "margin_pct": 37.43,
+      "lines": 468,
+      "return_rate_pct": 8.97
+    },
+    {
+      "name": "2025-10",
+      "net_sales": 3357010.0,
+      "gross_profit": 1275800.0,
+      "margin_pct": 38.0,
+      "lines": 1176,
+      "return_rate_pct": 8.76
+    },
+    {
+      "name": "2025-11",
+      "net_sales": 3191337.5,
+      "gross_profit": 1240877.5,
+      "margin_pct": 38.88,
+      "lines": 1128,
+      "return_rate_pct": 7.62
+    },
+    {
+      "name": "2025-12",
+      "net_sales": 3416867.5,
+      "gross_profit": 1327947.5,
+      "margin_pct": 38.86,
+      "lines": 1166,
+      "return_rate_pct": 7.38
+    }
+  ],
+  "sql_results": {
+    "executive_kpis": [
+      {
+        "net_sales": 45361050.0,
+        "gross_profit": 17544050.0,
+        "margin_pct": 38.68,
+        "orders": 7980,
+        "aov": 5684.34,
+        "line_return_rate_pct": 8.0
+      }
+    ],
+    "monthly_growth": [
+      {
+        "month": "2024-01",
+        "net_sales": 1369640.0,
+        "gross_profit": 521790.0,
+        "orders": 249,
+        "margin_pct": 38.1,
+        "previous_month_sales": null,
+        "mom_growth_pct": null
+      },
+      {
+        "month": "2024-02",
+        "net_sales": 1335175.0,
+        "gross_profit": 509195.0,
+        "orders": 228,
+        "margin_pct": 38.14,
+        "previous_month_sales": 1369640.0,
+        "mom_growth_pct": -2.52
+      },
+      {
+        "month": "2024-03",
+        "net_sales": 1240290.0,
+        "gross_profit": 480860.0,
+        "orders": 238,
+        "margin_pct": 38.77,
+        "previous_month_sales": 1335175.0,
+        "mom_growth_pct": -7.11
+      },
+      {
+        "month": "2024-04",
+        "net_sales": 1447265.0,
+        "gross_profit": 532585.0,
+        "orders": 234,
+        "margin_pct": 36.8,
+        "previous_month_sales": 1240290.0,
+        "mom_growth_pct": 16.69
+      },
+      {
+        "month": "2024-05",
+        "net_sales": 1503405.0,
+        "gross_profit": 590365.0,
+        "orders": 271,
+        "margin_pct": 39.27,
+        "previous_month_sales": 1447265.0,
+        "mom_growth_pct": 3.88
+      },
+      {
+        "month": "2024-06",
+        "net_sales": 1519997.5,
+        "gross_profit": 602537.5,
+        "orders": 263,
+        "margin_pct": 39.64,
+        "previous_month_sales": 1503405.0,
+        "mom_growth_pct": 1.1
+      },
+      {
+        "month": "2024-07",
+        "net_sales": 1430177.5,
+        "gross_profit": 553007.5,
+        "orders": 254,
+        "margin_pct": 38.67,
+        "previous_month_sales": 1519997.5,
+        "mom_growth_pct": -5.91
+      },
+      {
+        "month": "2024-08",
+        "net_sales": 1314375.0,
+        "gross_profit": 507775.0,
+        "orders": 239,
+        "margin_pct": 38.63,
+        "previous_month_sales": 1430177.5,
+        "mom_growth_pct": -8.1
+      },
+      {
+        "month": "2024-09",
+        "net_sales": 1378780.0,
+        "gross_profit": 535570.0,
+        "orders": 236,
+        "margin_pct": 38.84,
+        "previous_month_sales": 1314375.0,
+        "mom_growth_pct": 4.9
+      },
+      {
+        "month": "2024-10",
+        "net_sales": 3667215.0,
+        "gross_profit": 1450175.0,
+        "orders": 651,
+        "margin_pct": 39.54,
+        "previous_month_sales": 1378780.0,
+        "mom_growth_pct": 165.98
+      },
+      {
+        "month": "2024-11",
+        "net_sales": 3511230.0,
+        "gross_profit": 1328560.0,
+        "orders": 603,
+        "margin_pct": 37.84,
+        "previous_month_sales": 3667215.0,
+        "mom_growth_pct": -4.25
+      },
+      {
+        "month": "2024-12",
+        "net_sales": 3357602.5,
+        "gross_profit": 1294662.5,
+        "orders": 583,
+        "margin_pct": 38.56,
+        "previous_month_sales": 3511230.0,
+        "mom_growth_pct": -4.38
+      },
+      {
+        "month": "2025-01",
+        "net_sales": 1513025.0,
+        "gross_profit": 577285.0,
+        "orders": 261,
+        "margin_pct": 38.15,
+        "previous_month_sales": 3357602.5,
+        "mom_growth_pct": -54.94
+      },
+      {
+        "month": "2025-02",
+        "net_sales": 1322920.0,
+        "gross_profit": 517240.0,
+        "orders": 234,
+        "margin_pct": 39.1,
+        "previous_month_sales": 1513025.0,
+        "mom_growth_pct": -12.56
+      },
+      {
+        "month": "2025-03",
+        "net_sales": 1459432.5,
+        "gross_profit": 573052.5,
+        "orders": 286,
+        "margin_pct": 39.27,
+        "previous_month_sales": 1322920.0,
+        "mom_growth_pct": 10.32
+      },
+      {
+        "month": "2025-04",
+        "net_sales": 1337617.5,
+        "gross_profit": 535147.5,
+        "orders": 237,
+        "margin_pct": 40.01,
+        "previous_month_sales": 1459432.5,
+        "mom_growth_pct": -8.35
+      },
+      {
+        "month": "2025-05",
+        "net_sales": 1353092.5,
+        "gross_profit": 532972.5,
+        "orders": 236,
+        "margin_pct": 39.39,
+        "previous_month_sales": 1337617.5,
+        "mom_growth_pct": 1.16
+      },
+      {
+        "month": "2025-06",
+        "net_sales": 1374807.5,
+        "gross_profit": 541667.5,
+        "orders": 244,
+        "margin_pct": 39.4,
+        "previous_month_sales": 1353092.5,
+        "mom_growth_pct": 1.6
+      },
+      {
+        "month": "2025-07",
+        "net_sales": 1326122.5,
+        "gross_profit": 490192.5,
+        "orders": 246,
+        "margin_pct": 36.96,
+        "previous_month_sales": 1374807.5,
+        "mom_growth_pct": -3.54
+      },
+      {
+        "month": "2025-08",
+        "net_sales": 1363097.5,
+        "gross_profit": 549197.5,
+        "orders": 257,
+        "margin_pct": 40.29,
+        "previous_month_sales": 1326122.5,
+        "mom_growth_pct": 2.79
+      },
+      {
+        "month": "2025-09",
+        "net_sales": 1270567.5,
+        "gross_profit": 475587.5,
+        "orders": 225,
+        "margin_pct": 37.43,
+        "previous_month_sales": 1363097.5,
+        "mom_growth_pct": -6.79
+      },
+      {
+        "month": "2025-10",
+        "net_sales": 3357010.0,
+        "gross_profit": 1275800.0,
+        "orders": 572,
+        "margin_pct": 38.0,
+        "previous_month_sales": 1270567.5,
+        "mom_growth_pct": 164.21
+      },
+      {
+        "month": "2025-11",
+        "net_sales": 3191337.5,
+        "gross_profit": 1240877.5,
+        "orders": 545,
+        "margin_pct": 38.88,
+        "previous_month_sales": 3357010.0,
+        "mom_growth_pct": -4.94
+      },
+      {
+        "month": "2025-12",
+        "net_sales": 3416867.5,
+        "gross_profit": 1327947.5,
+        "orders": 588,
+        "margin_pct": 38.86,
+        "previous_month_sales": 3191337.5,
+        "mom_growth_pct": 7.07
+      }
+    ],
+    "category_profitability": [
+      {
+        "category": "Fashion",
+        "net_sales": 12210140.0,
+        "gross_profit": 6322500.0,
+        "margin_pct": 51.78,
+        "line_return_rate_pct": 14.22
+      },
+      {
+        "category": "Electronics",
+        "net_sales": 23857080.0,
+        "gross_profit": 6101730.0,
+        "margin_pct": 25.58,
+        "line_return_rate_pct": 6.16
+      },
+      {
+        "category": "Home",
+        "net_sales": 5977865.0,
+        "gross_profit": 3131295.0,
+        "margin_pct": 52.38,
+        "line_return_rate_pct": 5.73
+      },
+      {
+        "category": "Stationery",
+        "net_sales": 3315965.0,
+        "gross_profit": 1988525.0,
+        "margin_pct": 59.97,
+        "line_return_rate_pct": 5.78
+      }
+    ],
+    "region_channel_mix": [
+      {
+        "region": "North",
+        "channel": "Online",
+        "orders": 1756,
+        "net_sales": 9657920.0,
+        "gross_profit": 3609160.0
+      },
+      {
+        "region": "South",
+        "channel": "Online",
+        "orders": 1465,
+        "net_sales": 8112997.5,
+        "gross_profit": 3063557.5
+      },
+      {
+        "region": "West",
+        "channel": "Online",
+        "orders": 1199,
+        "net_sales": 6671817.5,
+        "gross_profit": 2463227.5
+      },
+      {
+        "region": "North",
+        "channel": "Store",
+        "orders": 970,
+        "net_sales": 5475245.0,
+        "gross_profit": 2300345.0
+      },
+      {
+        "region": "South",
+        "channel": "Store",
+        "orders": 773,
+        "net_sales": 4716762.5,
+        "gross_profit": 1904652.5
+      },
+      {
+        "region": "East",
+        "channel": "Online",
+        "orders": 741,
+        "net_sales": 4161155.0,
+        "gross_profit": 1543725.0
+      },
+      {
+        "region": "West",
+        "channel": "Store",
+        "orders": 638,
+        "net_sales": 3935807.5,
+        "gross_profit": 1586757.5
+      },
+      {
+        "region": "East",
+        "channel": "Store",
+        "orders": 438,
+        "net_sales": 2629345.0,
+        "gross_profit": 1072625.0
+      }
+    ],
+    "product_ranking": [
+      {
+        "product_id": "P02",
+        "product": "Smartwatch",
+        "category": "Electronics",
+        "gross_profit": 2914560.0,
+        "profit_rank_in_category": 1
+      },
+      {
+        "product_id": "P01",
+        "product": "Wireless headphones",
+        "category": "Electronics",
+        "gross_profit": 1775940.0,
+        "profit_rank_in_category": 2
+      },
+      {
+        "product_id": "P03",
+        "product": "Bluetooth speaker",
+        "category": "Electronics",
+        "gross_profit": 1411230.0,
+        "profit_rank_in_category": 3
+      },
+      {
+        "product_id": "P05",
+        "product": "Running shoes",
+        "category": "Fashion",
+        "gross_profit": 2972830.0,
+        "profit_rank_in_category": 1
+      },
+      {
+        "product_id": "P06",
+        "product": "Backpack",
+        "category": "Fashion",
+        "gross_profit": 1998950.0,
+        "profit_rank_in_category": 2
+      },
+      {
+        "product_id": "P04",
+        "product": "Cotton shirt",
+        "category": "Fashion",
+        "gross_profit": 1350720.0,
+        "profit_rank_in_category": 3
+      },
+      {
+        "product_id": "P07",
+        "product": "Desk lamp",
+        "category": "Home",
+        "gross_profit": 1601165.0,
+        "profit_rank_in_category": 1
+      },
+      {
+        "product_id": "P08",
+        "product": "Storage box",
+        "category": "Home",
+        "gross_profit": 878780.0,
+        "profit_rank_in_category": 2
+      },
+      {
+        "product_id": "P09",
+        "product": "Coffee mug",
+        "category": "Home",
+        "gross_profit": 651350.0,
+        "profit_rank_in_category": 3
+      },
+      {
+        "product_id": "P12",
+        "product": "Desk organiser",
+        "category": "Stationery",
+        "gross_profit": 1079180.0,
+        "profit_rank_in_category": 1
+      },
+      {
+        "product_id": "P10",
+        "product": "Notebook set",
+        "category": "Stationery",
+        "gross_profit": 562925.0,
+        "profit_rank_in_category": 2
+      },
+      {
+        "product_id": "P11",
+        "product": "Pen set",
+        "category": "Stationery",
+        "gross_profit": 346420.0,
+        "profit_rank_in_category": 3
+      }
+    ],
+    "discount_analysis": [
+      {
+        "discount_band": "0%",
+        "lines": 3987,
+        "net_sales": 12379650.0,
+        "margin_pct": 44.1,
+        "line_return_rate_pct": 7.27
+      },
+      {
+        "discount_band": "20%+",
+        "lines": 3091,
+        "net_sales": 7073925.0,
+        "margin_pct": 27.07,
+        "line_return_rate_pct": 11.19
+      },
+      {
+        "discount_band": "5\u201310%",
+        "lines": 9015,
+        "net_sales": 25907475.0,
+        "margin_pct": 39.26,
+        "line_return_rate_pct": 7.22
+      }
+    ],
+    "repeat_customers": [
+      {
+        "customers": 1787,
+        "repeat_customers": 1701,
+        "repeat_customer_pct": 95.19
+      }
+    ],
+    "customer_value_segments": [
+      {
+        "value_segment": "High value",
+        "customers": 1023,
+        "net_sales": 36594030.0
+      },
+      {
+        "value_segment": "Low value",
+        "customers": 286,
+        "net_sales": 1643482.5
+      },
+      {
+        "value_segment": "Medium value",
+        "customers": 478,
+        "net_sales": 7123537.5
+      }
+    ],
+    "year_over_year": [
+      {
+        "year": "2024",
+        "net_sales": 23075152.5,
+        "yoy_growth_pct": null
+      },
+      {
+        "year": "2025",
+        "net_sales": 22285897.5,
+        "yoy_growth_pct": -3.42
+      }
+    ],
+    "loss_making_lines": []
+  }
+}

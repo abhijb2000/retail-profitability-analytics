@@ -1,0 +1,47 @@
+// Create the date table via Modeling > New table. All other blocks are separate measures.
+DimDate =
+ADDCOLUMNS (
+    CALENDAR ( DATE ( 2024, 1, 1 ), DATE ( 2025, 12, 31 ) ),
+    "Year", YEAR ( [Date] ),
+    "MonthNumber", MONTH ( [Date] ),
+    "YearMonth", FORMAT ( [Date], "yyyy-MM" ),
+    "YearMonthSort", YEAR ( [Date] ) * 100 + MONTH ( [Date] )
+)
+
+Gross Sales = SUM ( FactOrders[gross_sales] )
+
+Discount Amount = SUM ( FactOrders[discount_amount] )
+
+Refund Amount = SUM ( FactOrders[refund_amount] )
+
+Net Sales = SUM ( FactOrders[net_sales] )
+
+COGS = SUM ( FactOrders[cogs] )
+
+Gross Profit = [Net Sales] - [COGS]
+
+Gross Margin % = DIVIDE ( [Gross Profit], [Net Sales] )
+
+Orders = DISTINCTCOUNT ( FactOrders[order_id] )
+
+Customers = DISTINCTCOUNT ( FactOrders[customer_id] )
+
+Net AOV = DIVIDE ( [Net Sales], [Orders] )
+
+Lines = COUNTROWS ( FactOrders )
+
+Returned Lines = SUM ( FactOrders[returned] )
+
+Line Return Rate % = DIVIDE ( [Returned Lines], [Lines] )
+
+Net Sales Previous Month =
+CALCULATE ( [Net Sales], DATEADD ( DimDate[Date], -1, MONTH ) )
+
+MoM Growth % =
+DIVIDE ( [Net Sales] - [Net Sales Previous Month], [Net Sales Previous Month] )
+
+Net Sales Previous Year =
+CALCULATE ( [Net Sales], DATEADD ( DimDate[Date], -1, YEAR ) )
+
+YoY Growth % =
+DIVIDE ( [Net Sales] - [Net Sales Previous Year], [Net Sales Previous Year] )

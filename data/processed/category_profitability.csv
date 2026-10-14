@@ -1,0 +1,5 @@
+category,net_sales,gross_profit,margin_pct,line_return_rate_pct
+Fashion,12210140.0,6322500.0,51.78,14.22
+Electronics,23857080.0,6101730.0,25.58,6.16
+Home,5977865.0,3131295.0,52.38,5.73
+Stationery,3315965.0,1988525.0,59.97,5.78

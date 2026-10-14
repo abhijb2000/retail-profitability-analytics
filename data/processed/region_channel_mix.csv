@@ -1,0 +1,9 @@
+region,channel,orders,net_sales,gross_profit
+North,Online,1756,9657920.0,3609160.0
+South,Online,1465,8112997.5,3063557.5
+West,Online,1199,6671817.5,2463227.5
+North,Store,970,5475245.0,2300345.0
+South,Store,773,4716762.5,1904652.5
+East,Online,741,4161155.0,1543725.0
+West,Store,638,3935807.5,1586757.5
+East,Store,438,2629345.0,1072625.0

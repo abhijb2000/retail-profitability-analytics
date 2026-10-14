@@ -1,0 +1,101 @@
+source_row,reason,line_id,order_id,order_date,customer_id,region,channel,product_id,product,category,quantity,unit_price,unit_cost,discount_pct,returned
+2,quantity_must_be_positive,L00001,O00001,2025-10-16,C0502,North,Store,P03,Bluetooth speaker,Electronics,0,1800,1200,0.1,0
+3,quantity_must_be_positive,L00002,O00002,2025-07-12,C0062,North,Online,P04,Cotton shirt,Fashion,0,900,360,0.05,0
+4,quantity_must_be_positive,L00003,O00003,2025-10-27,C0920,West,Online,P05,Running shoes,Fashion,0,2200,1000,0.1,0
+5,quantity_must_be_positive,L00004,O00003,2025-10-27,C0920,West,Online,P01,Wireless headphones,Electronics,0,2400,1650,0.05,0
+6,quantity_must_be_positive,L00005,O00003,2025-10-27,C0920,West,Online,P03,Bluetooth speaker,Electronics,0,1800,1200,0.05,0
+7,quantity_must_be_positive,L00006,O00004,2025-10-24,C0776,South,Online,P09,Coffee mug,Home,0,400,150,0.05,0
+8,quantity_must_be_positive,L00007,O00005,2025-12-22,C1584,North,Store,P02,Smartwatch,Electronics,0,4200,2850,0,0
+9,quantity_must_be_positive,L00008,O00005,2025-12-22,C1584,North,Store,P04,Cotton shirt,Fashion,0,900,360,0.1,0
+10,quantity_must_be_positive,L00009,O00006,2024-12-29,C1400,North,Online,P02,Smartwatch,Electronics,0,4200,2850,0.1,0
+11,quantity_must_be_positive,L00010,O00006,2024-12-29,C1400,North,Online,P10,Notebook set,Stationery,0,300,100,0.05,0
+12,quantity_must_be_positive,L00011,O00006,2024-12-29,C1400,North,Online,P03,Bluetooth speaker,Electronics,0,1800,1200,0.2,0
+13,quantity_must_be_positive,L00012,O00007,2024-02-02,C0136,West,Online,P10,Notebook set,Stationery,0,300,100,0.2,0
+14,quantity_must_be_positive,L00013,O00008,2025-12-15,C1526,North,Online,P09,Coffee mug,Home,0,400,150,0.1,0
+15,quantity_must_be_positive,L00014,O00008,2025-12-15,C1526,North,Online,P05,Running shoes,Fashion,0,2200,1000,0.3,0
+16,quantity_must_be_positive,L00015,O00008,2025-12-15,C1526,North,Online,P10,Notebook set,Stationery,0,300,100,0,0
+17,quantity_must_be_positive,L00016,O00009,2024-06-05,C0865,South,Store,P02,Smartwatch,Electronics,0,4200,2850,0.1,0
+18,quantity_must_be_positive,L00017,O00009,2024-06-05,C0865,South,Store,P07,Desk lamp,Home,0,1100,500,0.1,0
+19,quantity_must_be_positive,L00018,O00009,2024-06-05,C0865,South,Store,P11,Pen set,Stationery,0,200,70,0,0
+20,quantity_must_be_positive,L00019,O00010,2024-12-14,C0930,North,Online,P12,Desk organiser,Stationery,0,650,250,0.2,0
+21,quantity_must_be_positive,L00020,O00011,2024-07-01,C1281,South,Online,P11,Pen set,Stationery,0,200,70,0.1,0
+22,Invalid isoformat string: 'not-a-date',L00021,O00011,not-a-date,C1281,South,Online,P09,Coffee mug,Home,1,400,150,0,0
+23,Invalid isoformat string: 'not-a-date',L00022,O00012,not-a-date,C0630,East,Store,P01,Wireless headphones,Electronics,1,2400,1650,0,0
+24,Invalid isoformat string: 'not-a-date',L00023,O00013,not-a-date,C1091,West,Store,P03,Bluetooth speaker,Electronics,4,1800,1200,0.1,0
+25,Invalid isoformat string: 'not-a-date',L00024,O00014,not-a-date,C0867,North,Store,P09,Coffee mug,Home,2,400,150,0.1,0
+26,Invalid isoformat string: 'not-a-date',L00025,O00015,not-a-date,C0898,East,Online,P08,Storage box,Home,3,600,260,0.05,1
+27,Invalid isoformat string: 'not-a-date',L00026,O00015,not-a-date,C0898,East,Online,P02,Smartwatch,Electronics,2,4200,2850,0.1,1
+28,Invalid isoformat string: 'not-a-date',L00027,O00015,not-a-date,C0898,East,Online,P04,Cotton shirt,Fashion,1,900,360,0.2,0
+29,Invalid isoformat string: 'not-a-date',L00028,O00016,not-a-date,C0439,North,Store,P03,Bluetooth speaker,Electronics,2,1800,1200,0.05,0
+30,Invalid isoformat string: 'not-a-date',L00029,O00016,not-a-date,C0439,North,Store,P10,Notebook set,Stationery,2,300,100,0.05,0
+31,Invalid isoformat string: 'not-a-date',L00030,O00016,not-a-date,C0439,North,Store,P11,Pen set,Stationery,4,200,70,0.1,0
+32,Invalid isoformat string: 'not-a-date',L00031,O00017,not-a-date,C1380,South,Store,P11,Pen set,Stationery,3,200,70,0.05,0
+33,Invalid isoformat string: 'not-a-date',L00032,O00017,not-a-date,C1380,South,Store,P02,Smartwatch,Electronics,2,4200,2850,0,0
+34,Invalid isoformat string: 'not-a-date',L00033,O00017,not-a-date,C1380,South,Store,P01,Wireless headphones,Electronics,4,2400,1650,0.1,0
+35,Invalid isoformat string: 'not-a-date',L00034,O00018,not-a-date,C0155,North,Online,P09,Coffee mug,Home,1,400,150,0,0
+36,Invalid isoformat string: 'not-a-date',L00035,O00018,not-a-date,C0155,North,Online,P02,Smartwatch,Electronics,2,4200,2850,0.3,0
+37,Invalid isoformat string: 'not-a-date',L00036,O00019,not-a-date,C0121,South,Store,P07,Desk lamp,Home,4,1100,500,0,0
+38,Invalid isoformat string: 'not-a-date',L00037,O00020,not-a-date,C1139,East,Store,P12,Desk organiser,Stationery,3,650,250,0,0
+39,Invalid isoformat string: 'not-a-date',L00038,O00020,not-a-date,C1139,East,Store,P08,Storage box,Home,1,600,260,0,0
+40,Invalid isoformat string: 'not-a-date',L00039,O00020,not-a-date,C1139,East,Store,P03,Bluetooth speaker,Electronics,1,1800,1200,0,0
+41,Invalid isoformat string: 'not-a-date',L00040,O00021,not-a-date,C0117,East,Online,P02,Smartwatch,Electronics,2,4200,2850,0.1,0
+16135,duplicate_line_id,L12870,O06368,2024-10-28,C0351,South,Online,P06,Backpack,Fashion,2,1400,620,0.2,0
+16136,duplicate_line_id,L15087,O07485,2024-08-09,C0312,South,Store,P08,Storage box,Home,3,600,260,0,0
+16137,duplicate_line_id,L05449,O02693,2024-05-29,C1215,West,Store,P10,Notebook set,Stationery,2,300,100,0.1,0
+16138,duplicate_line_id,L07006,O03460,2025-11-11,C0745,North,Store,P01,Wireless headphones,Electronics,3,2400,1650,0.1,0
+16139,duplicate_line_id,L15830,O07855,2025-06-03,C0990,South,Online,P06,Backpack,Fashion,4,1400,620,0.2,0
+16140,duplicate_line_id,L10566,O05218,2025-12-25,C0526,East,Online,P09,Coffee mug,Home,2,400,150,0,0
+16141,duplicate_line_id,L08880,O04407,2024-02-28,C1401,North,Online,P01,Wireless headphones,Electronics,4,2400,1650,0.05,0
+16142,duplicate_line_id,L10728,O05297,2025-07-10,C1496,North,Online,P07,Desk lamp,Home,4,1100,500,0.3,0
+16143,duplicate_line_id,L04152,O02050,2024-10-19,C0175,South,Online,P04,Cotton shirt,Fashion,1,900,360,0.2,0
+16144,duplicate_line_id,L11583,O05727,2024-10-16,C1086,West,Store,P08,Storage box,Home,2,600,260,0,0
+16145,duplicate_line_id,L00327,O00159,2024-05-01,C1406,South,Online,P02,Smartwatch,Electronics,3,4200,2850,0.1,0
+16146,duplicate_line_id,L16086,O07977,2025-11-04,C1471,North,Online,P11,Pen set,Stationery,1,200,70,0.05,0
+16147,duplicate_line_id,L00630,O00321,2025-09-25,C1687,South,Store,P01,Wireless headphones,Electronics,2,2400,1650,0.05,0
+16148,duplicate_line_id,L06593,O03258,2024-10-11,C0749,South,Online,P09,Coffee mug,Home,3,400,150,0.05,0
+16149,duplicate_line_id,L12527,O06190,2024-08-11,C1037,East,Store,P11,Pen set,Stationery,1,200,70,0.1,0
+16150,duplicate_line_id,L11562,O05718,2025-01-28,C1403,East,Online,P03,Bluetooth speaker,Electronics,4,1800,1200,0,0
+16151,duplicate_line_id,L13006,O06437,2024-09-30,C0359,North,Online,P07,Desk lamp,Home,4,1100,500,0.1,0
+16152,duplicate_line_id,L15987,O07932,2024-12-26,C0409,South,Online,P10,Notebook set,Stationery,4,300,100,0,0
+16153,duplicate_line_id,L12556,O06204,2024-10-22,C0264,North,Online,P05,Running shoes,Fashion,1,2200,1000,0,0
+16154,duplicate_line_id,L05633,O02787,2025-09-27,C0029,North,Online,P12,Desk organiser,Stationery,1,650,250,0.05,0
+16155,duplicate_line_id,L11570,O05722,2025-06-03,C0048,South,Online,P02,Smartwatch,Electronics,2,4200,2850,0.2,0
+16156,duplicate_line_id,L08831,O04379,2024-03-29,C1478,South,Online,P07,Desk lamp,Home,2,1100,500,0.1,0
+16157,duplicate_line_id,L06231,O03073,2025-10-12,C1682,East,Store,P03,Bluetooth speaker,Electronics,4,1800,1200,0.05,0
+16158,duplicate_line_id,L01253,O00627,2024-12-14,C1065,West,Store,P02,Smartwatch,Electronics,4,4200,2850,0.1,0
+16159,duplicate_line_id,L05514,O02728,2024-10-17,C1623,North,Online,P10,Notebook set,Stationery,3,300,100,0.2,0
+16160,duplicate_line_id,L13585,O06736,2025-11-20,C0024,West,Online,P11,Pen set,Stationery,2,200,70,0.05,0
+16161,duplicate_line_id,L08302,O04115,2024-11-29,C1620,East,Online,P01,Wireless headphones,Electronics,3,2400,1650,0.3,0
+16162,duplicate_line_id,L04103,O02025,2024-01-14,C1712,North,Online,P05,Running shoes,Fashion,2,2200,1000,0,0
+16163,duplicate_line_id,L12577,O06214,2025-09-01,C1489,South,Store,P12,Desk organiser,Stationery,3,650,250,0,0
+16164,duplicate_line_id,L03773,O01865,2025-09-14,C0497,East,Store,P07,Desk lamp,Home,2,1100,500,0.1,0
+16165,duplicate_line_id,L05596,O02769,2024-04-13,C1734,North,Online,P08,Storage box,Home,2,600,260,0.3,0
+16166,duplicate_line_id,L09172,O04551,2024-05-27,C1656,South,Store,P07,Desk lamp,Home,1,1100,500,0.05,0
+16167,duplicate_line_id,L13407,O06643,2025-06-06,C1081,South,Store,P12,Desk organiser,Stationery,1,650,250,0.05,0
+16168,duplicate_line_id,L10691,O05281,2025-04-14,C1192,East,Online,P12,Desk organiser,Stationery,3,650,250,0.3,0
+16169,duplicate_line_id,L11252,O05562,2025-02-18,C0023,North,Store,P07,Desk lamp,Home,2,1100,500,0.1,0
+16170,duplicate_line_id,L01921,O00944,2025-11-20,C0199,West,Online,P04,Cotton shirt,Fashion,3,900,360,0,0
+16171,duplicate_line_id,L05033,O02486,2024-02-27,C0248,South,Online,P06,Backpack,Fashion,1,1400,620,0.2,0
+16172,duplicate_line_id,L15070,O07477,2025-11-21,C1283,North,Store,P01,Wireless headphones,Electronics,4,2400,1650,0.05,0
+16173,duplicate_line_id,L15445,O07660,2025-12-12,C1073,North,Store,P11,Pen set,Stationery,1,200,70,0.1,0
+16174,duplicate_line_id,L10135,O05010,2024-05-27,C0801,East,Online,P11,Pen set,Stationery,1,200,70,0.1,0
+16175,duplicate_line_id,L13874,O06888,2025-12-23,C0636,North,Online,P07,Desk lamp,Home,3,1100,500,0.05,0
+16176,duplicate_line_id,L01027,O00515,2025-10-05,C1542,North,Online,P09,Coffee mug,Home,3,400,150,0.05,0
+16177,duplicate_line_id,L11143,O05508,2025-12-04,C1010,South,Online,P10,Notebook set,Stationery,4,300,100,0.2,0
+16178,duplicate_line_id,L08257,O04091,2024-07-05,C0418,North,Online,P09,Coffee mug,Home,4,400,150,0.2,0
+16179,duplicate_line_id,L13044,O06458,2025-12-11,C0620,South,Store,P06,Backpack,Fashion,2,1400,620,0,0
+16180,duplicate_line_id,L08675,O04304,2024-12-24,C1476,North,Store,P05,Running shoes,Fashion,1,2200,1000,0.05,1
+16181,duplicate_line_id,L10407,O05141,2025-07-29,C0563,South,Online,P10,Notebook set,Stationery,3,300,100,0.3,0
+16182,duplicate_line_id,L02349,O01153,2024-08-22,C0190,North,Store,P09,Coffee mug,Home,4,400,150,0.05,0
+16183,duplicate_line_id,L04822,O02384,2024-11-09,C1031,South,Online,P06,Backpack,Fashion,1,1400,620,0.1,0
+16184,duplicate_line_id,L03368,O01658,2024-02-07,C1652,South,Store,P10,Notebook set,Stationery,2,300,100,0.05,0
+16185,duplicate_line_id,L15069,O07477,2025-11-21,C1283,North,Store,P08,Storage box,Home,3,600,260,0.05,1
+16186,duplicate_line_id,L07147,O03532,2025-10-14,C1568,South,Online,P12,Desk organiser,Stationery,2,650,250,0.3,0
+16187,duplicate_line_id,L13052,O06461,2024-10-10,C1075,North,Online,P02,Smartwatch,Electronics,4,4200,2850,0.05,0
+16188,duplicate_line_id,L12094,O05984,2024-10-25,C1711,West,Online,P01,Wireless headphones,Electronics,4,2400,1650,0.3,0
+16189,duplicate_line_id,L13915,O06906,2024-12-07,C1748,South,Store,P02,Smartwatch,Electronics,3,4200,2850,0.1,0
+16190,duplicate_line_id,L11546,O05710,2025-05-12,C1123,East,Online,P04,Cotton shirt,Fashion,1,900,360,0.3,0
+16191,duplicate_line_id,L14336,O07114,2024-09-23,C1484,East,Online,P08,Storage box,Home,3,600,260,0.3,0
+16192,duplicate_line_id,L07942,O03929,2025-03-02,C0994,North,Store,P09,Coffee mug,Home,2,400,150,0.1,0
+16193,duplicate_line_id,L05824,O02875,2025-01-27,C1266,South,Online,P12,Desk organiser,Stationery,4,650,250,0.2,0
+16194,duplicate_line_id,L11310,O05591,2025-10-04,C1081,South,Online,P01,Wireless headphones,Electronics,2,2400,1650,0,0

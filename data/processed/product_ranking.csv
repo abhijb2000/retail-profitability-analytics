@@ -1,0 +1,13 @@
+product_id,product,category,gross_profit,profit_rank_in_category
+P02,Smartwatch,Electronics,2914560.0,1
+P01,Wireless headphones,Electronics,1775940.0,2
+P03,Bluetooth speaker,Electronics,1411230.0,3
+P05,Running shoes,Fashion,2972830.0,1
+P06,Backpack,Fashion,1998950.0,2
+P04,Cotton shirt,Fashion,1350720.0,3
+P07,Desk lamp,Home,1601165.0,1
+P08,Storage box,Home,878780.0,2
+P09,Coffee mug,Home,651350.0,3
+P12,Desk organiser,Stationery,1079180.0,1
+P10,Notebook set,Stationery,562925.0,2
+P11,Pen set,Stationery,346420.0,3

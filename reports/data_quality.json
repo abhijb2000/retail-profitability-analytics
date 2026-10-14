@@ -1,0 +1,7 @@
+{
+  "raw_rows": 16193,
+  "clean_rows": 16093,
+  "duplicate_rows": 60,
+  "invalid_rows": 40,
+  "normalised_regions": 50
+}

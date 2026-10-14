@@ -1,0 +1,21 @@
+// Logic-level DOM simulation; not a substitute for browser visual QA.
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
+const html=fs.readFileSync(path.join(__dirname,'../dashboard/index.html'),'utf8');
+const code=html.split('<script>')[1].split('</script>')[0];
+const nodes={},downloads=[];
+for(const id of ['region','channel','category','from','to','reset','export','status','kpis','trend','start','end','monthtable','categories','regiontable','discounttable','products'])nodes[id]={value:'',innerHTML:'',textContent:'',options:[],add(x){this.options.push(x)},addEventListener(name,fn){this[name]=fn}};
+nodes.from.value='2024-01-01';nodes.to.value='2025-12-31';
+const ctx=vm.createContext({console,Intl,Map,Set,Blob,Option:function(text,value){this.text=text;this.value=value},URL:{createObjectURL(b){downloads.push(b);return 'blob:test'},revokeObjectURL(){}},setTimeout(fn){fn()},document:{getElementById(id){return nodes[id]},createElement(){return {click(){}}}}});
+vm.runInContext(code,ctx);
+assert.match(nodes.status.textContent,/16,093/);
+assert.match(nodes.kpis.innerHTML,/4,53,61,050/);
+nodes.category.value='Fashion';nodes.category.change();
+const fashion=vm.runInContext("filtered().length",ctx);assert(fashion>0&&fashion<16093);
+assert(vm.runInContext("filtered().every(r=>r.category==='Fashion')",ctx));
+nodes.region.value='North';nodes.channel.value='Online';nodes.from.value='2025-10-01';nodes.to.value='2025-10-31';nodes.region.change();
+assert(vm.runInContext("filtered().every(r=>r.region==='North'&&r.channel==='Online'&&r.month==='2025-10')",ctx));
+nodes.export.onclick();assert.equal(downloads.length,1);
+nodes.from.value='2026-01-01';nodes.from.change();assert.match(nodes.status.textContent,/0 matching/);assert.match(nodes.products.innerHTML,/No matching data/);
+nodes.export.onclick();assert.equal(downloads.length,1);assert.equal(nodes.status.textContent,'No rows to export.');
+nodes.reset.onclick();assert.match(nodes.status.textContent,/16,093/);
+downloads[0].text().then(csv=>{assert(csv.startsWith('"line_id","order_id"'));assert(csv.includes('Fashion'));console.log('Dashboard checks passed: initial KPIs, category, combined filters, CSV export, empty range and reset.');});
